@@ -100,7 +100,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: 'electron-vue-project',
             filename: 'index.html',
-            template: path.resolve(__dirname, '../src/template.html'),
+            template: path.resolve(__dirname, '../template.html'),
             inject: false,
             hash: true,
             minify: {
